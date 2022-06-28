@@ -1,0 +1,9 @@
+<ul *ngFor="let user of users">
+  <div *ngIf="user.id %2-1">
+      <div class="card">
+      <h3 class="card-header">Id {{user.id}}</h3>
+      <li  class="name">{{ user.name}}</li>
+      <li class="info">Email : {{user.email}}</li>
+      <li class="info">Phone : {{user.phone}}</li>
+    </div>
+  

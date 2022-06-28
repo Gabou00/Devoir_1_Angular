@@ -1,0 +1,26 @@
+.card {
+    background-color: aqua;
+    padding: 4vh;
+    border-style: solid;
+    border-radius: 1rem;
+
+}
+
+.card-header {
+    color: black;
+    text-align: right;
+    background-color: aliceblue;
+    padding: 0.4em;
+}
+
+.info {
+    color: black;
+    padding: 0.4em;
+    list-style: none;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: large;
+    list-style: none;
+}
